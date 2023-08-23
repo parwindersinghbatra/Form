@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<fieldset>
+  <legend>Personal Details</legend>
+
+        <label for="lname">
+          Firstname 
+          <input type="text" name ="lname" size="15">
+          <br><br>
+          Middlename:  <input type="text" name ="lname" size="15">
+          <br><br>
+          Lastname:  <input type="text" name ="lname" size="15">
+        </label>
+        <br>
+        <label for="course"><br>
+          Course :  
+          <select name ="course"> 
+              <option value="course">Course</option>
+              <option value="Ba">Ba</option>
+              <option value="MCA">MCA</option>
+              <option value="PGDCA">PGDCA</option>
+          </select>   
+        </label><br>
+
+        <label for="Gender"><br>
+          Gender : <br>
+          <input type="radio" name ="gender" value="Male"> Male<br>
+          
+          <input type="radio" name ="gender" value="Female"> Female <br>
+          <input type="radio" name ="gender" value="Other"> Other
+        </label><br>
+
+        <label for="dob"><br>
+          DOB 
+          <input type="date" name ="dob">
+        </label><br>
+        <label for="phone">
+          Phone : <input type="text" value="+91" disabled size="1">
+          <input type="text" name ="phone" maxlength="10" size="10">
+        </label><br>
+
+        <label for="address"><br>
+          Address <br>
+          <textarea name ="address" cols="80" rows="5"></textarea>
+        </label><br>
+        
+        <label for="email"><br>
+          Email: 
+          <input type="email" name ="email">
+        </label><br>
+        <br>
+        <label for="password"><br>
+          Password: 
+          <input type="password" name ="password">
+        </label><br>
+        
+        <br>
+        <label for="repassword"><br>
+          Re-type password:
+          <input type="password" name ="repassword">
+        </label><br>
+
+          <br>
+          <input type="checkbox" name ="aggreement" value="True">
+        <label for="aggreement">Agree to terms and conditions
+        </label><br>
+
+          <br>
+        <label for="choosefile">Choose File
+          <input type="file" name ="choosefile">
+        </label><br>
+
+        <br>
+        <label for="choosecolor">Choose Color
+          <input type="color" name ="choosecolor">
+        </label><br>
+        <lable for = "submit"> <br>
+          
+          <input type="reset">
+          <input type="submit">
+      </lable>
+</fieldset>
+
+        
+</body>
+</html>
